@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    padding: 1.75rem 0;
+}
+
+.main {
+    max-width: 1310px;
+    margin: 0 auto;
+}
+.sideone {
+    width: 81%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headertop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.menu nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu nav ul li {
+    margin: 0 20px;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 17px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.menu nav ul li a:hover{
+    color: rgb(0 107 255);
+}
+svg.svg-inline--fa.fa-magnifying-glass {
+    color: gray;
+    font-size: 17px;
+    margin-right: 20px;
+}
+svg.svg-inline--fa.fa-sun {
+    font-size: 17px;
+    color: gray;
+    margin-right: 10px;
+}
+.btn1{
+    border: none;
+    font-size: 16px;
+    color: #757693;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 10px;
+    background: none;
+}
+.btn1:hover{
+    color: rgb(0 107 255);
+}
+.btn2 {
+    background-color: rgb(0 107 255);
+    border: none;
+    padding: 12px 26px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 22px;
+    font-weight: 500;
+}
+.hero-work {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    margin-bottom: 10%;
+}
+.bg-left h4 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.bg-left h1 {
+    font-size: 44px;
+    line-height: 58px;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    padding-right: 4rem;
+    color: rgb(24 28 49);
+    font-family: sans-serif;
+}
+
+.bg-left p {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 23px;
+    width: 87%;
+}
+
+.bg-btn {
+    background-color:rgb(24 28 49);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 17px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border: none;
+    border-radius:22px;
+    cursor: pointer;
+}
+.sidetwo img {
+    width: 100%;
+    height: auto;
+}
+.card-work {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+.card {
+    background: white;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.card-work .icon img {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.card-work h3 {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-work p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 15px;
+}
+.tabs-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.tabs-work button {
+    padding: 12px 25px;
+    background-color: #ddd;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.tabs-work button.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.tabs-work button:hover {
+    background-color: #0056b3;
+    color: white;
+}
