@@ -1,0 +1,32 @@
+ [
+  { 
+    "icon": "./public/images/icon-01.svg", 
+    "title": "Crafted for SaaS", 
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
+  },
+  { 
+    "icon": "./public/images/icon-02.svg", 
+    "title": "High-quality Design", 
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
+  },
+  { 
+    "icon": "./public/images/icon-03.svg", 
+    "title": "Next.js + TypeScript", 
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
+  },
+  { 
+    "icon": "./public/images/icon-04.svg", 
+    "title": "Crafted for SaaS", 
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
+  },
+  { 
+    "icon": "./public/images/icon-05.svg", 
+    "title": "High-quality Design", 
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
+  },
+  { 
+    "icon": "./public/images/icon-06.svg", 
+    "title": "Next.js + TypeScript", 
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
+  }
+]

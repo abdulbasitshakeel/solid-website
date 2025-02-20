@@ -5,6 +5,7 @@ import HeroWork from "./component/HeroWork";
 import Features from "./component/Features";
 import Tabs from "./component/Tabs";
 import Intergrations from "./component/Integration";
+import Faq from "./component/Faq";
 
 
 function App() {
@@ -12,10 +13,11 @@ function App() {
   return (
     <>
       <Header />
-      <HeroWork  />
-      <Features  />
+      <HeroWork />
+      <Features />
       <Tabs />
       <Intergrations />
+      <Faq />
     </>
   )
 }
