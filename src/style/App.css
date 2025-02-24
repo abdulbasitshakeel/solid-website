@@ -794,6 +794,11 @@ button.accordion-button {
         padding-left: 10px;
     padding-right: 27px;
     }
+    .tabs-work button {
+        padding: 11px 10px!important;
+        font-size: 11px;
+        transition: all 0.3sease-in-out;
+    }
 }
   @media (max-width:320px){
     .main {
@@ -879,7 +884,7 @@ button.accordion-button {
             width: 100%;
         }
         .tabs-work button {
-            padding: 11px 18px;
+            padding: 11px 10px!important;
             font-size: 11px;
             transition: all 0.3sease-in-out;
         }
