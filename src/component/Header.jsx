@@ -15,7 +15,7 @@ const Header = () => {
                 <div className="main">
                     <div className="headertop">
                         <div className="logo">
-                            <img src="../public/images/logoo.png" alt="" />
+                            <img src="/images/logoo.png" alt="" />
                         </div>
                         <div className={`sideone ${isMenuOpen ? "active" : ""}`}>
                             <div className="menu">
