@@ -48,7 +48,7 @@ const Testimonials = () => {
                     <Slider {...settings}>
                         <div class="test-card">
                             <div className="test-imgg">
-                                <img src="./public/images/download.jfif" alt="Henry C." class="test-img" />
+                                <img src="/images/download.jfif" alt="Henry C." class="test-img" />
                             </div>
                             <div class="test-info">
                                 <p class="test-quote">"I did this and it was awesome!"</p>
@@ -58,7 +58,7 @@ const Testimonials = () => {
                         </div>
                         <div class="test-card">
                             <div className="test-imgg">
-                                <img src="./public/images/download.jfif" alt="Henry C." class="test-img" />
+                                <img src="/images/download.jfif" alt="Henry C." class="test-img" />
                             </div>
                             <div class="test-info">
                                 <p class="test-quote">"I did this and it was awesome!"</p>
@@ -68,7 +68,7 @@ const Testimonials = () => {
                         </div>
                         <div class="test-card">
                             <div className="test-imgg">
-                                <img src="./public/images/download.jfif" alt="Henry C." class="test-img" />
+                                <img src="/images/download.jfif" alt="Henry C." class="test-img" />
                             </div>
                             <div class="test-info">
                                 <p class="test-quote">"I did this and it was awesome!"</p>
@@ -78,7 +78,7 @@ const Testimonials = () => {
                         </div>
                         <div class="test-card">
                             <div className="test-imgg">
-                                <img src="./public/images/download.jfif" alt="Henry C." class="test-img" />
+                                <img src="/images/download.jfif" alt="Henry C." class="test-img" />
                             </div>
                             <div class="test-info">
                                 <p class="test-quote">"I did this and it was awesome!"</p>

@@ -5,27 +5,27 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
   },
   { 
-    "icon": "./public/images/icon-02.svg", 
+    "icon": "/images/icon-02.svg", 
     "title": "High-quality Design", 
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
   },
   { 
-    "icon": "./public/images/icon-03.svg", 
+    "icon": "/images/icon-03.svg", 
     "title": "Next.js + TypeScript", 
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
   },
   { 
-    "icon": "./public/images/icon-04.svg", 
+    "icon": "/images/icon-04.svg", 
     "title": "Sanity Blog and Docs", 
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
   },
   { 
-    "icon": "./public/images/icon-05.svg", 
+    "icon": "/images/icon-05.svg", 
     "title": "DB, Auth and Stripe", 
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
   },
   { 
-    "icon": "./public/images/icon-06.svg", 
+    "icon": "/images/icon-06.svg", 
     "title": "Regular Free Updates", 
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
   }

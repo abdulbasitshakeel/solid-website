@@ -13,12 +13,12 @@ const Intergrations = () => {
                             <p style={{color:'gray', textAlign:'center'}}>Solid is a decentralization project that gives users control over their data<br></br> through personal online data stores project that (pods).</p>
                         </div>
                         <div className="integrte-img">
-                            <img src="./public/images/brand-07.svg" alt="not fount" style={{marginTop:'10%'}}/>
-                            <img src="./public/images/brand-08.svg" alt="not fount"/>
-                            <img src="./public/images/brand-09.svg" alt="not fount" style={{marginTop:'10%'}}/>
-                            <img src="./public/images/brand-10.svg" alt="not fount"/>
-                            <img src="./public/images/brand-11.svg" alt="not fount" style={{marginTop:'10%'}}/>
-                            <img src="./public/images/brand-12.svg" alt="not fount"/>
+                            <img src="/images/brand-07.svg" alt="not fount" style={{marginTop:'10%'}}/>
+                            <img src="/images/brand-08.svg" alt="not fount"/>
+                            <img src="/images/brand-09.svg" alt="not fount" style={{marginTop:'10%'}}/>
+                            <img src="/images/brand-10.svg" alt="not fount"/>
+                            <img src="/images/brand-11.svg" alt="not fount" style={{marginTop:'10%'}}/>
+                            <img src="/images/brand-12.svg" alt="not fount"/>
                         </div>
                     </div>
                 </div>

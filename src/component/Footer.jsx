@@ -12,7 +12,7 @@ const Footer = () => {
                   <div class="col-12 col-md-4 col-lg-3 col-xl-2">
                     <div class="widget">
                       <a href="#!">
-                        <img src="./public/images/logoo.png" alt="BootstrapBrain Logo" />
+                        <img src="/images/logoo.png" alt="BootstrapBrain Logo" />
                       </a>
                     </div>
                         <p className='mt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

@@ -35,7 +35,7 @@ const Tabs = () => {
                                 </div>
                                 <div className="col-md-6">
                                     <div className="bg-right">
-                                    <img src="../public/images/tabs.png" alt="" className="img-fluid"/>
+                                    <img src="/images/tabs.png" alt="" className="img-fluid"/>
                                     </div>
                                 </div>     
                             </div>
