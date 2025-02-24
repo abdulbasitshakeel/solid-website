@@ -5,6 +5,7 @@ const Faq = () => {
 
   return (
     <>
+    <section>
         <div className='main'>
             <div className="faq-work">
                 <div className='row'>
@@ -33,6 +34,7 @@ const Faq = () => {
                 </div>
             </div>
         </div>
+    </section>
     </>
   );
 }

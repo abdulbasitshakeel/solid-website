@@ -4,7 +4,7 @@ const HeroWork = () => {
 
     return(
         <>
-            <content>
+            <section>
                 <div className="main">
                     <div className="hero-work">
                         <div className="row">
@@ -18,13 +18,13 @@ const HeroWork = () => {
                             </div>
                             <div className="col-md-6">
                                 <div className="bg-right">
-                                    <img src="../public/images/bg-r.png" alt="" />
+                                    <img src="../public/images/bg-r.png" alt="" className="img-fluid"/>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </content>
+            </section>
         </>
     )
 }

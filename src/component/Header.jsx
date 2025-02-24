@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass, faSun } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass, faSun, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
-    return(
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
+    return (
         <>
             <header>
                 <div className="main">
@@ -11,7 +17,7 @@ const Header = () => {
                         <div className="logo">
                             <img src="../public/images/logoo.png" alt="" />
                         </div>
-                        <div className="sideone">
+                        <div className={`sideone ${isMenuOpen ? "active" : ""}`}>
                             <div className="menu">
                                 <nav>
                                     <ul>
@@ -31,11 +37,14 @@ const Header = () => {
                                 <button className="btn2">Sign Up</button>
                             </div>
                         </div>
+                        <div className="menu-toggle" onClick={toggleMenu}>
+                            <FontAwesomeIcon icon={isMenuOpen ? faTimes : faBars} />
+                        </div>
                     </div>
                 </div>
             </header>
         </>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;

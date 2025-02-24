@@ -6,6 +6,8 @@ import Features from "./component/Features";
 import Tabs from "./component/Tabs";
 import Intergrations from "./component/Integration";
 import Faq from "./component/Faq";
+import Testimonials from "./component/Testimonials";
+import Footer from "./component/footer";
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <Tabs />
       <Intergrations />
       <Faq />
+      <Testimonials />
+      <Footer />
     </>
   )
 }

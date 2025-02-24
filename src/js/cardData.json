@@ -1,7 +1,7 @@
  [
   { 
     "icon": "./public/images/icon-01.svg", 
-    "title": "Crafted for SaaS", 
+    "title": "Crafted for Software", 
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
   },
   { 
@@ -16,17 +16,17 @@
   },
   { 
     "icon": "./public/images/icon-04.svg", 
-    "title": "Crafted for SaaS", 
+    "title": "Sanity Blog and Docs", 
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
   },
   { 
     "icon": "./public/images/icon-05.svg", 
-    "title": "High-quality Design", 
+    "title": "DB, Auth and Stripe", 
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
   },
   { 
     "icon": "./public/images/icon-06.svg", 
-    "title": "Next.js + TypeScript", 
+    "title": "Regular Free Updates", 
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
   }
 ]
