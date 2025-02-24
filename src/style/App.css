@@ -462,6 +462,10 @@ button.accordion-button {
     .hero-work {
         padding-top: 20px;
     }
+    .headertop{
+        padding-left: 10px;
+    padding-right: 27px;
+    }
     .bg-left h4 {
         font-size: 17px;
     }
@@ -540,6 +544,10 @@ button.accordion-button {
     img.img-fluid {
         margin-top: 33px;
     }
+    .headertop{
+        padding-left: 10px;
+    padding-right: 27px;
+    }
     .card{
         padding: 10px;
     }
@@ -606,6 +614,10 @@ button.accordion-button {
     }
       .hero-work {
           padding-top: 20px;
+      }
+      .headertop{
+        padding-left: 10px;
+    padding-right: 27px;
       }
       .bg-left h4 {
         font-size: 15px;
@@ -693,6 +705,10 @@ button.accordion-button {
       .bg-left p {
           width: 100%;
       }
+      .headertop{
+        padding-left: 10px;
+    padding-right: 27px;
+      }
       img.img-fluid {
           margin-top: 33px;
       }
@@ -765,7 +781,7 @@ button.accordion-button {
   
   @media (max-width: 430px) {
     .main {
-        max-width: 355px!important;
+        max-width: 355px !important;
     }
     .card-work{
         display: block;
@@ -774,11 +790,15 @@ button.accordion-button {
         padding: 10px;
         margin-bottom: 20px!important;
     }
+    .headertop{
+        padding-left: 10px;
+    padding-right: 27px;
+    }
 }
-  @media (max-width:414px){
+  @media (max-width:320px){
     .main {
-        max-width: 335px;
-      }
+        max-width: 280px !important;
+    }
       .card-work{
         display: block;
       }
@@ -789,6 +809,10 @@ button.accordion-button {
     .bg-left h4 {
         font-size: 18px;
         margin-bottom: 10px;
+    }
+    .headertop{
+        padding-left: 10px;
+    padding-right: 27px;
     }
         .sideone {
             display: none;

@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="row">
                   <div className="col-md-4">
                     <div className="widget mb-3">
-                      <a href="#"><img src="./public/images/logoo.png" alt="BootstrapBrain Logo" />
+                      <a href="#"><img src="/images/logoo.png" alt="BootstrapBrain Logo" />
                       </a>
                     </div>
                     <p className='mt-4 mystyle'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
