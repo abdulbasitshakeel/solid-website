@@ -7,7 +7,7 @@ import Tabs from "./component/Tabs";
 import Intergrations from "./component/Integration";
 import Faq from "./component/Faq";
 import Testimonials from "./component/Testimonials";
-import Footer from "./component/footer";
+import Footer from "./component/Footer";
 
 
 function App() {

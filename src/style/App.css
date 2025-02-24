@@ -359,7 +359,9 @@ button.accordion-button {
         padding: 10px;
         z-index: 1000;
     }
-
+    .card{
+        padding: 20px;
+    }
     .sideone.active {
         display: flex;
     }
@@ -398,9 +400,9 @@ button.accordion-button {
     .bg-left h1 {
         font-size: 33px;
         padding-right: 0px;
+        line-height: 40px;
     }
   }
-  
   
   @media (max-width: 900px) {
     .main {
@@ -572,9 +574,12 @@ button.accordion-button {
       img.img-fluid {
           margin-top: 33px;
       }
-      .card{
-          padding: 10px;
+      .card-work{
+        display: block;
       }
+      .card {
+        padding: 10px;
+    }
       .sideone {
           display: none;
           flex-direction: column;
@@ -634,6 +639,19 @@ button.accordion-button {
       }
       
   }
+  
+  @media (max-width: 430px) {
+    .main {
+        max-width: 355px!important;
+    }
+    .card-work{
+        display: block;
+      }
+      .card {
+        padding: 10px;
+        margin-bottom: 20px!important;
+    }
+}
   @media (max-width:414px){
     .main {
         max-width: 335px;
