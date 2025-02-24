@@ -15,7 +15,7 @@ const Header = () => {
                 <div className="main">
                     <div className="headertop">
                         <div className="logo">
-                            <img src="/images/logoo.png" alt="" />
+                            <a href="index.html"><img src="/images/logoo.png" alt="" /></a>
                         </div>
                         <div className={`sideone ${isMenuOpen ? "active" : ""}`}>
                             <div className="menu">
@@ -46,5 +46,6 @@ const Header = () => {
         </>
     );
 };
+
 
 export default Header;

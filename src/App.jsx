@@ -15,12 +15,14 @@ function App() {
   return (
     <>
       <Header />
+      <content>
       <HeroWork />
       <Features />
       <Tabs />
       <Intergrations />
       <Faq />
       <Testimonials />
+      </content>
       <Footer />
     </>
   )

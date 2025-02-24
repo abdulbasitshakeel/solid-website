@@ -5,7 +5,7 @@ const Tabs = () => {
   
   return (
     <>
-    <section>
+    <section className="mybgworkkk">
         <div className="main">
             <div className="tabs-work">
                 <button onClick={() => setActiveTab("tab1")} className={activeTab === "tab1" ? "active" : ""}>
@@ -34,7 +34,7 @@ const Tabs = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="bg-right">
+                                    <div className="bg-right myimagenostyle">
                                     <img src="/images/tabs.png" alt="" className="img-fluid"/>
                                     </div>
                                 </div>     
