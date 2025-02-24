@@ -783,114 +783,110 @@ ul.slick-dots {
   
   @media (max-width: 430px) {
     .main {
-        max-width: 355px !important;
+      max-width: 355px !important;
     }
-    .card-work{
-        display: block;
-      }
-      .card {
-        padding: 10px;
-        margin-bottom: 20px!important;
+    .card-work {
+      display: block;
     }
-    .headertop{
-        padding-left: 10px;
-    padding-right: 27px;
+    .card {
+      padding: 10px;
+      margin-bottom: 20px !important;
+    }
+    .headertop {
+      padding-left: 10px;
+      padding-right: 27px;
     }
     .tabs-work button {
-        padding: 11px 10px!important;
-        font-size: 11px;
-        transition: all 0.3sease-in-out;
+      padding: 11px 10px !important;
+      font-size: 11px;
+      transition: all 0.3s ease-in-out;
     }
-}
-  @media (max-width:320px){
+  }
+  
+  @media (max-width: 320px) {
     .main {
-        max-width: 280px !important;
+      max-width: 280px !important;
     }
-      .card-work{
-        display: block;
-      }
-      .card {
-        padding: 10px;
-        margin-bottom: 20px!important;
+    .card-work {
+      display: block;
+    }
+    .card {
+      padding: 10px;
+      margin-bottom: 20px !important;
     }
     .bg-left h4 {
-        font-size: 18px;
-        margin-bottom: 10px;
+      font-size: 18px;
+      margin-bottom: 10px;
     }
-    .headertop{
-        padding-left: 10px;
-    padding-right: 27px;
+    .headertop {
+      padding-left: 10px;
+      padding-right: 27px;
     }
-        .sideone {
-            display: none;
-            flex-direction: column;
-            position: absolute;
-            top: 70px;
-            right: 20px;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            padding: 10px;
-            z-index: 1000;
-        }
-    
-        .sideone.active {
-            display: flex;
-        }
-    
-        .menu nav ul {
-            flex-direction: column;
-        }
-    
-        .menu nav ul li {
-            margin: 10px 0;
-        }
-    
-        .extrabuttons {
-            flex-direction: column;
-            margin-left: 0;
-        }
-    
-        .extrabuttons .btn1,
-        .extrabuttons .btn2 {
-            margin: 5px 0;
-        }
-    
-        .menu-toggle {
-            display: block;
-            font-size: 20px;
-        }
-        .faq-left {
-            margin-left: 0px!important;
-            margin-bottom: 45px;
-        }
-        .faq-left h4{
-            margin-top: 0px!important;
-        }
-        .faq-left h1{
-            padding-right: 1rem;
-            font-size: 37px;
-        }
-        .testimonial-card {
-            padding: 15px 9px;
-            max-width: 178px;
-        }
-        img.img-fluid {
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-        .bg-left h1{
-            line-height: 40px;
-            margin-bottom: 10px;
-        }
-        .bg-left p {
-            width: 100%;
-        }
-        .tabs-work button {
-            padding: 11px 10px!important;
-            font-size: 11px;
-            transition: all 0.3sease-in-out;
-        }
-        .mystyle {
-            width: 260px;
-        }
+    .sideone {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      z-index: 1000;
+    }
+    .sideone.active {
+      display: flex;
+    }
+    .menu nav ul {
+      flex-direction: column;
+    }
+    .menu nav ul li {
+      margin: 10px 0;
+    }
+    .extrabuttons {
+      flex-direction: column;
+      margin-left: 0;
+    }
+    .extrabuttons .btn1,
+    .extrabuttons .btn2 {
+      margin: 5px 0;
+    }
+    .menu-toggle {
+      display: block;
+      font-size: 20px;
+    }
+    .faq-left {
+      margin-left: 0 !important;
+      margin-bottom: 45px;
+    }
+    .faq-left h4 {
+      margin-top: 0 !important;
+    }
+    .faq-left h1 {
+      padding-right: 1rem;
+      font-size: 37px;
+    }
+    .testimonial-card {
+      padding: 15px 9px;
+      max-width: 178px;
+    }
+    img.img-fluid {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .bg-left h1 {
+      line-height: 40px;
+      margin-bottom: 10px;
+    }
+    .bg-left p {
+      width: 100%;
+    }
+    .tabs-work button {
+      padding: 11px 10px !important;
+      font-size: 11px;
+      transition: all 0.3s ease-in-out;
+    }
+    .mystyle {
+      width: 260px;
+    }
   }
+  
