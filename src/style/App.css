@@ -803,7 +803,7 @@ ul.slick-dots {
     }
   }
   
-  @media (max-width: 320px) {
+  @media (max-width: 355px) {
     .main {
       max-width: 280px !important;
     }
