@@ -1,6 +1,6 @@
  [
   { 
-    "icon": "./public/images/icon-01.svg", 
+    "icon": "/images/icon-01.svg", 
     "title": "Crafted for Software", 
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor." 
   },
