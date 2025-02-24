@@ -389,7 +389,9 @@ button.accordion-button {
 .slick-dots li {
     margin: 0 5px;
 }
-
+ul.slick-dots {
+    margin-bottom: 15px;
+}
 .slick-dots li button {
     width: 12px;
     height: 12px;
@@ -887,5 +889,8 @@ button.accordion-button {
             padding: 11px 10px!important;
             font-size: 11px;
             transition: all 0.3sease-in-out;
+        }
+        .mystyle {
+            width: 260px;
         }
   }
