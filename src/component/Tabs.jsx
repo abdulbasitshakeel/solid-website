@@ -48,7 +48,7 @@ const Tabs = () => {
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="bg-left" style={{marginLeft:'3%'}}>
-                                        <h1 style={{ marginTop: '12%' }}>Pages and UI Components You Need for a SaaS.</h1>
+                                        <h1 style={{ marginTop: '12%' }}>Pages and UI You Need for a SaaS.</h1>
                                         <p>
                                         Packed with all the key integrations you need for swift SaaS startup launch,
                                         including - Authentication, Database, Sanity Blog, Essential UI Components, Business Pages and More.
